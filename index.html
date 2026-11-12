@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StitchKit</title>
+<meta name="description" content="StitchKit: a private Windows desktop app for preparing and listing digital cross stitch patterns in one shop.">
+<style>
+  :root { --bg: #faf7f2; --ink: #2a2522; --muted: #6b625b; --line: #e4ddd3; --accent: #b4553f; --card: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1d1a18; --ink: #ece6df; --muted: #a89f97; --line: #3a3430; --accent: #e08a72; --card: #262220; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1, h2 { font-family: system-ui, "Segoe UI", sans-serif; line-height: 1.25; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .lead { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>StitchKit</h1>
+  <p class="lead">A private Windows desktop app for preparing and listing digital cross stitch patterns.</p>
+
+  <div class="card">
+    <p>StitchKit is built and used by one seller to run their own shop of printable cross stitch patterns. It is not offered to other sellers, and there is nothing to sign up for or download here.</p>
+  </div>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Turns a cross stitch chart into a ready listing kit: US Letter and A4 PDF patterns, listing images with alt text, and a short video.</li>
+    <li>Writes the listing's title, description and tags on the seller's computer.</li>
+    <li>Creates each new listing as a draft digital-download listing in the seller's own shop, with its images, files and video. The seller reviews and publishes every draft by hand.</li>
+    <li>Updates the seller's own listings when their wording, price, images or files change.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <ul>
+    <li>The app runs only on the seller's own computer. There is no server and no account.</li>
+    <li>It connects to the seller's shop through the official API, signing in with OAuth 2.0 (PKCE). The sign-in tokens are stored encrypted on that computer and are never sent anywhere else.</li>
+    <li>It doesn't collect, sell or share anyone's data, and it never stores buyers' names or addresses.</li>
+    <li>It doesn't scrape websites or access other shops.</li>
+  </ul>
+
+  <footer>
+    <p>The term 'Etsy' is a trademark of Etsy, Inc. This application uses the Etsy API but is not endorsed or certified by Etsy, Inc.</p>
+  </footer>
+</main>
+</body>
+</html>
