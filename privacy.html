@@ -28,7 +28,7 @@
 <main>
   <p><a href="./">← StitchKit</a></p>
   <h1>Privacy Policy</h1>
-  <p class="lead">Effective 13 November 2026</p>
+  <p class="lead">Effective 13 November 2026 · updated to add Facebook and Instagram</p>
 
   <div class="card">
     <p>StitchKit is a private Windows desktop app. It is built and used by one seller to run their own shop of printable cross stitch patterns. It is not offered to anyone else, it has no server, and it has no user accounts. This policy explains what the app does with information from the services it connects to.</p>
@@ -39,6 +39,8 @@
   <ul>
     <li><strong>Etsy:</strong> to read the seller's shop details and sections, create draft digital-download listings, and upload or update those listings' images, files, video, wording and price.</li>
     <li><strong>Pinterest:</strong> to list the seller's own boards and create pins on them, each with an image, title, description, alt text and a link to the matching listing in the seller's shop.</li>
+    <li><strong>Facebook and Instagram (Meta):</strong> to list the Facebook Pages the seller manages, and to publish posts, photos, stories and videos to the seller's own Page and the Instagram Business account linked to it.</li>
+    <li><strong>GitHub:</strong> Instagram only accepts a picture from a public web address, so StitchKit briefly puts each picture it is about to post in a public GitHub repository owned by the seller, and deletes it once Instagram has fetched it. The picture is the one being published publicly anyway.</li>
   </ul>
 
   <h2>What information it uses</h2>
@@ -65,8 +67,16 @@
   <h2>Keeping and deleting information</h2>
   <ul>
     <li>Disconnecting a service in StitchKit's settings deletes its sign-in tokens from the computer.</li>
-    <li>Access can also be removed at any time from each service's own settings (Etsy: Account settings → Apps; Pinterest: Settings → Security and logins → Apps).</li>
+    <li>Access can also be removed at any time from each service's own settings (Etsy: Account settings → Apps; Pinterest: Settings → Security and logins → Apps; Facebook: Settings → Business integrations). See <a href="#data-deletion">Data deletion instructions</a>.</li>
     <li>Content the app has posted stays on the service until the seller deletes it there.</li>
+  </ul>
+
+  <h2 id="data-deletion">Data deletion instructions</h2>
+  <p>StitchKit keeps no data on any server, so there is nothing for anyone to request from us. Everything it holds about a connected account is on the seller's own computer:</p>
+  <ul>
+    <li>To delete it, open StitchKit → Settings, and press Disconnect for the service (Etsy, Pinterest, or Facebook and Instagram). That deletes its sign-in tokens from the computer; uninstalling StitchKit and deleting its data folder removes everything.</li>
+    <li>To remove StitchKit's access on Facebook, go to Facebook Settings → Business integrations (or Apps and websites), find StitchKit and remove it. On Instagram: Settings → Website permissions → Apps and websites.</li>
+    <li>Posts StitchKit published stay on Facebook, Instagram or Pinterest until the seller deletes them there.</li>
   </ul>
 
   <h2>Children</h2>
@@ -79,7 +89,7 @@
   <p>Questions about this policy can be raised at <a href="https://github.com/NextAgeBilal/stitchkit/issues">github.com/NextAgeBilal/stitchkit/issues</a>.</p>
 
   <footer>
-    <p>The term 'Etsy' is a trademark of Etsy, Inc. This application uses the Etsy API but is not endorsed or certified by Etsy, Inc. Pinterest is a trademark of Pinterest, Inc.; StitchKit is not endorsed by Pinterest.</p>
+    <p>The term 'Etsy' is a trademark of Etsy, Inc. This application uses the Etsy API but is not endorsed or certified by Etsy, Inc. Pinterest is a trademark of Pinterest, Inc.; StitchKit is not endorsed by Pinterest. Facebook and Instagram are trademarks of Meta Platforms, Inc.; StitchKit is not endorsed by Meta.</p>
   </footer>
 </main>
 </body>
